@@ -1,0 +1,10 @@
+package org.example.orchestratorservice.event;
+
+public enum BookingEvent {
+    PROCESS_PAYMENT,
+    PAYMENT_SUCCESS,
+    PAYMENT_FAILED,
+    RESERVE_SEATS,
+    RESERVATION_SUCCESS,
+    RESERVATION_FAILED
+}
